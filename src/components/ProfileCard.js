@@ -39,15 +39,26 @@ S.Card = styled.section`
     border-top: 1px solid #e8e9ec;
     display: flex;
     justify-content: space-around;
+    align-items: center;
   }
 `;
 
 S.SocialMedia = styled.div`
-  .info {
+  /* background-color: red; */
+  .label {
     font-weight: 400;
     font-size: 10px;
-    color: grey;
+    line-height: 10px;
+    color: #6b7082;
     letter-spacing: 1px;
+    margin-top: 0px;
+  }
+  .numbers {
+    font-weight: 800;
+    margin-bottom: 9px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #2e3349;
   }
 `;
 
@@ -74,18 +85,18 @@ const ProfileCard = ({ userId }) => {
         <h1>Main</h1>
       </div>
       <div className="footer">
-        <div>
-          <p>{profile.socialMedia.followers}</p>
-          <S.InfoText>Followers</S.InfoText>
-        </div>
-        <div>
-          <p>{profile.socialMedia.likes}</p>
-          <S.InfoText>Likes</S.InfoText>
-        </div>
-        <div>
-          <p>{profile.socialMedia.photos}</p>
-          <S.InfoText>Photos</S.InfoText>
-        </div>
+        <S.SocialMedia>
+          <p className="numbers">{profile.socialMedia.followers}</p>
+          <p className="label">Followers</p>
+        </S.SocialMedia>
+        <S.SocialMedia>
+          <p className="numbers">{profile.socialMedia.likes}</p>
+          <p className="label">Likes</p>
+        </S.SocialMedia>
+        <S.SocialMedia>
+          <p className="numbers">{profile.socialMedia.photos}</p>
+          <p className="label">Photos</p>
+        </S.SocialMedia>
       </div>
     </S.Card>
   );
