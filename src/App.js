@@ -8,6 +8,7 @@ const GlobalStyles = css`
   * {
     font-size: 18px;
     font-family: "Kumbh Sans", sans-serif;
+    box-sizing: border-box;
   }
 `;
 

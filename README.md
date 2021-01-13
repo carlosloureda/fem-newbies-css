@@ -20,6 +20,10 @@ npm start
 
 - [VS Code plugin for emotion](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
 
+### Good resources
+
+- [How to center elements in CSS](https://css-tricks.com/centering-css-complete-guide/)
+
 # Front-end Style Guide
 
 ## Layout

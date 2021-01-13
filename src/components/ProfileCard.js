@@ -31,6 +31,14 @@ S.Card = styled.section`
   display: flex;
   flex-direction: column;
 
+  /* center vertically without flexbox: */
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+  /* center horizontally */
+  margin: 0 auto;
+
   .main {
     flex: 1;
   }
