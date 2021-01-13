@@ -1,8 +1,0 @@
-.App {
-  text-align: center;
-  position: relative;
-  /* Required as we set position relative to center the child */
-  width: 100%;
-  height: 100vh;
-  background-color: red;
-}
