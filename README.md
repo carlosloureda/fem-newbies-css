@@ -23,6 +23,15 @@ npm start
 ### Good resources
 
 - [How to center elements in CSS](https://css-tricks.com/centering-css-complete-guide/)
+- [How to keep rounded corners on background image](https://markheath.net/post/keep-inside-rounded-corners-css)
+- [How to use css to make a round image avatar](https://stackoverflow.com/questions/26681059/create-a-circle-avatar-from-a-rectangle-image-keeping-proportions-and-just-using)
+- [How to add multiple backgrounds](https://css-tricks.com/css-basics-using-multiple-backgrounds/)
+
+### TODOS
+
+- Set the 2nd div on a box have the height of the remaining container. Without CSS.
+- Learn more on emotionjs and fix the React 17 thing.
+- Fix background to be responsive. ask \_primm!
 
 # Front-end Style Guide
 
