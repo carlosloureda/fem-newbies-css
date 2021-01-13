@@ -24,7 +24,7 @@ const S = {
     height: 100vh;
     background-color: #19a2ae;
     background-image: url(${bgTop}), url(${bgBottom});
-    background-position: top 200px left, bottom right;
+    background-position: top -410px left -70px, bottom -510px right -30px;
     background-repeat: no-repeat;
     /* background-image: url(${bgTop});
     background-image: url(${bgBottom}); */
