@@ -3,9 +3,11 @@
 This project is from [frontendmentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/hub/profile-card-component-MekIGFqugi).
 Made on my Twitch channel videos ([follow me](https://www.twitch.tv/balanze)) to learn more CSS and show it to the world.
 
+Running App at https://frontendmentor-newbies-css.vercel.app/
+
 # Built with
 
-- ReactJS
+- ReactJS & EmotionJS
 
 # How to run
 
