@@ -70,6 +70,8 @@ S.Card = styled.section`
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 `;
 
@@ -97,13 +99,13 @@ S.CityText = styled.div`
   font-size: 14px;
   line-height: 14px;
   color: #6b7082;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 28px;
 `;
 
 S.NameText = styled.h2`
   /* font-weight: bold; */
-
+  margin-bottom: 0px;
   .age {
     padding-left: 8.5px;
     font-weight: 400;
