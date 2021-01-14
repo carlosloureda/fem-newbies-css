@@ -101,8 +101,8 @@ S.CityText = styled.div`
   margin-bottom: 28px;
 `;
 
-S.NameText = styled.div`
-  font-weight: bold;
+S.NameText = styled.h2`
+  /* font-weight: bold; */
 
   .age {
     padding-left: 8.5px;
